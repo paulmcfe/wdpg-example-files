@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lesson 13.9: Gradients and Vendor Prefixes - Complete cross-browser CSS for a radial gradient</title>
+        <style>
+            div {
+                background-color: #00f;
+                background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #fff, #00f);
+                background-image:    -moz-radial-gradient(center, ellipse farthest-corner, #fff, #00f);
+                background-image:      -o-radial-gradient(center, ellipse farthest-corner, #fff, #00f);
+                background-image:         radial-gradient(ellipse farthest-corner at center, #fff, #00f);
+                height: 200px;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html>
